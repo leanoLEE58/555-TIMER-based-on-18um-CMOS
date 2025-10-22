@@ -23,7 +23,8 @@ This project presents a **full-custom design and verification** of the classic *
 The 555 timer, one of the most iconic ICs in history with **over 1 billion units produced annually**, finds applications ranging from toys to aerospace systems. Our implementation demonstrates modern low-power design techniques while maintaining the versatility and reliability that made the original 555 famous.
 
 <div align="center">
-<img src="https://via.placeholder.com/800x400/4A90E2/FFFFFF?text=555+Timer+Chip+Design" alt="555 Timer Design"/>
+
+<img width="368" height="225" alt="Image" src="https://github.com/user-attachments/assets/5b1fe0fb-69c1-4fb4-900f-ca1e047c97e2" />
 
 *Complete 555 timer circuit with internal architecture and external astable multivibrator configuration*
 </div>
@@ -134,7 +135,7 @@ Organized by: Ministry of Industry and Information Technology of China
 ### Multi-Condition Radar Charts
 
 <div align="center">
-<img src="https://via.placeholder.com/800x600/FF6B6B/FFFFFF?text=Performance+Radar+Charts" alt="Radar Charts"/>
+<img width="458" height="421" alt="Image" src="https://github.com/user-attachments/assets/3a68ca06-08fe-4018-867a-218bbf266553" />
 
 *Performance metrics across 3 process corners (TT, FF, SS) × 3 voltages (3V, 9V, 15V) × 3 temperatures (-40°C, 27°C, 85°C)*
 </div>
