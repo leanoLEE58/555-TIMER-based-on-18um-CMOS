@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Competition](https://img.shields.io/badge/CICC-National_3rd_Prize-orange.svg)](https://www.cciced.org.cn)
+[![Competition](https://img.shields.io/badge/CICC-National_3rd_Prize-orange.svg)](http://univ.ciciec.com/)
 [![Technology](https://img.shields.io/badge/Process-0.18μm_CMOS-blue.svg)](https://docs.google.com/document/d/1aNiKTewdfVq6mismomvq2n81nvol8A6N/edit?usp=sharing&ouid=100188557469530936292&rtpof=true&sd=true)
 [![Power](https://img.shields.io/badge/Power-52μW@3V-green.svg)](https://docs.google.com/document/d/1aNiKTewdfVq6mismomvq2n81nvol8A6N/edit?usp=sharing&ouid=100188557469530936292&rtpof=true&sd=true)
 
