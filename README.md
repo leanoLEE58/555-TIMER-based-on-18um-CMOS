@@ -215,40 +215,6 @@ Schematic Design → Pre-Layout Simulation → Layout Design
 - ✅ LVS clean match
 
 ---
-
-## 📁 Repository Structure
-
-```
-555-timer-design/
-├── schematic/
-│   ├── 555_timer_top.cir          # Top-level schematic
-│   ├── comparator.cir             # Comparator module
-│   ├── flipflop.cir               # RS flip-flop
-│   └── output_driver.cir          # Output stage
-├── layout/
-│   ├── 555_timer.gds              # Final layout (GDSII)
-│   ├── comparator_layout.gds      # Comparator layout
-│   └── layout_screenshots/        # Layout images
-├── simulation/
-│   ├── pre_layout/                # Pre-layout simulation results
-│   │   ├── tt_corner/
-│   │   ├── ff_corner/
-│   │   └── ss_corner/
-│   ├── post_layout/               # Post-layout simulation results
-│   └── testbenches/               # Simulation testbenches
-├── verification/
-│   ├── drc_report.txt             # DRC verification results
-│   ├── lvs_report.txt             # LVS verification results
-│   └── performance_summary.xlsx   # Performance metrics table
-├── docs/
-│   ├── design_report.pdf          # Complete technical report
-│   ├── presentation.pptx          # Competition presentation
-│   └── user_manual.pdf            # Usage guide
-└── README.md                      # This file
-```
-
----
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -264,18 +230,6 @@ Schematic Design → Pre-Layout Simulation → Layout Design
 
 ### Running Simulations
 
-```bash
-# Pre-layout simulation (example)
-cd simulation/pre_layout/tt_corner/
-spectre 555_timer_testbench.scs
-
-# Post-layout simulation
-cd simulation/post_layout/
-# Extract parasitics first
-calibre -xrc layout.gds
-# Run simulation with extracted netlist
-spectre 555_timer_parasitic.scs
-```
 
 ### Design Parameters
 
@@ -472,7 +426,7 @@ Effect: Ioff ∝ exp(-L/L0)  // Exponential reduction in leakage
 **Jiayi Li**  
 Email: leanolee58@gmail.com  
 GitHub: [@leanoLEE58](https://github.com/leanoLEE58)  
-WeChat: 15519227533
+
 
 **Institution:**  
 Ocean University of China  
